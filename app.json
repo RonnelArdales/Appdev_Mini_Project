@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Note App",
+    "slug": "Note App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon4.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.NoteApp.Rodatian",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon4.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
