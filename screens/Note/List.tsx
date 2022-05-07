@@ -117,7 +117,7 @@ return (
           >  
 
     <ListItem.Content style={styles.listitemcontainer}>
-      <ListItem.Title numberOfLines={1} style ={{ fontSize:18, fontWeight:"bold", width:"100%"}}>{NOTE.Title}</ListItem.Title>
+      <ListItem.Title numberOfLines={1} style ={{ fontSize:20, fontWeight:"bold", width:"100%"}}>{NOTE.Title}</ListItem.Title>
       <ListItem.Subtitle numberOfLines={1} style={{ fontSize:18,marginVertical:1, width:"100%"}}>{NOTE.Description ? NOTE.Description : <Removelist/> }</ListItem.Subtitle>
       <ListItem.Subtitle style={{ fontSize:13, marginTop:1}}>{NOTE.Datetime}</ListItem.Subtitle>
     </ListItem.Content>

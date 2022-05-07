@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "Note App",
-    "slug": "Note App",
+    "name": "Note app",
+    "slug": "Note-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon4.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
+    
       "image": "./assets/images/splash2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
@@ -23,6 +24,7 @@
     },
     "android": {
       "package": "com.NoteApp.Rodatian",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon4.png",
         "backgroundColor": "#ffffff"
